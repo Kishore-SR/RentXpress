@@ -11,7 +11,17 @@
     margin: auto;
     padding: 30px;
 }
-
+.car-heading {
+    text-align: center;
+    margin: 30px;
+  }
+  
+.car-heading h4 {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 .logo-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -23,10 +33,14 @@
     width: 120px;
     height: auto;
     object-fit: contain;
+    cursor: pointer;
+    transition: scale 0.2s;
 }
-
+.logo-container img:hover{
+    scale: 1.2;
+}
 .logo-container .bmw-logo {
-    width: 60px;
+    width: 54px;
 }
 
 /* Mobile View */
@@ -34,6 +48,12 @@
     .car-brands-section {
         width: 100%;
         padding: 40px 10px;
+    }
+    .car-heading {
+        margin-top: 20px;
+    }
+    .car-heading h4 {
+    font-size: 0.8rem;
     }
     .logo-container {
         grid-template-columns: repeat(3, 1fr);

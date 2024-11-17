@@ -39,10 +39,10 @@ export const Navbar = () => {
         {mobileDrawerOpen && (
           <div className="mobile-drawer">
             <ul>
-            <li><a href="#">Rent</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="ri-roadster-line"></i> Rent</a></li>
+            <li><a href="#"><i class="ri-shield-flash-line"></i> Services</a></li>
+            <li><a href="#"><i class="ri-user-star-line"></i> About</a></li>
+            <li><a href="#"><i class="ri-mail-ai-line"></i> Contact</a></li>
             </ul>
             <div className="drawer-buttons">
               <a href="#" className="btn btn-border">

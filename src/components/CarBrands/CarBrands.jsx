@@ -11,6 +11,9 @@ import Mahindra from "../../assets/Car_Brands/Mahindra.png"
 export const CarBrands = () => {
   return (
     <section className="car-brands-section">
+      <div className="car-heading">
+      <h4>Our Partners</h4>
+      </div>
     <div className="logo-container">
       <img src={Benz} alt="Benz" />
       <img className="bmw-logo" src={Bmw} alt="BMW" />
