@@ -1,0 +1,49 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CarBrands Styles */
+.car-brands-section {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.logo-container .bmw-logo {
+    width: 60px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .car-brands-section {
+        width: 100%;
+        padding: 40px 10px;
+    }
+    .logo-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .logo-container img {
+        width: 80px;
+        margin: 10px 0;
+    }
+    .logo-container .bmw-logo {
+        width: 40px;
+    }
+}
