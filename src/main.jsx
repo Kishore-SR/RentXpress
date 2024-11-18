@@ -7,6 +7,7 @@ import { CarBrands } from './components/CarBrands/CarBrands'
 import { Working } from './components/Working/Working'
 import { Services } from './components/Services/Services'
 import { Download } from './components/Download/Download'
+import { Footer } from './components/Footer/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Working/>
     <Services/>
     <Download/>
+    <Footer/>
   </StrictMode>,
 )
