@@ -10,7 +10,7 @@ import Mahindra from "../../assets/Car_Brands/Mahindra.png"
 
 export const CarBrands = () => {
   return (
-    <section className="car-brands-section">
+    <section className="car-brands-section" id="rent">
       <div className="car-heading">
       <h4>Our Partners</h4>
       </div>

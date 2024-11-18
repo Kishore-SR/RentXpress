@@ -20,7 +20,7 @@ export const Services = () => {
   }, [carImages.length]);
 
   return (
-    <section className="services">
+    <section className="services" id="services">
       <div className="header-text">
         <h4>Our Services</h4>
         <h3>

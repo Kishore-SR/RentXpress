@@ -6,6 +6,7 @@ import { HeroSection } from './components/HeroSection/HeroSection'
 import { CarBrands } from './components/CarBrands/CarBrands'
 import { Working } from './components/Working/Working'
 import { Services } from './components/Services/Services'
+import { Download } from './components/Download/Download'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <CarBrands/>
     <Working/>
     <Services/>
+    <Download/>
   </StrictMode>,
 )
