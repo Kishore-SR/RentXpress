@@ -5,6 +5,7 @@ import { Navbar } from './components/NavBar/NavBar'
 import { HeroSection } from './components/HeroSection/HeroSection'
 import { CarBrands } from './components/CarBrands/CarBrands'
 import { Working } from './components/Working/Working'
+import { Services } from './components/Services/Services'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <HeroSection/>
     <CarBrands/>
     <Working/>
+    <Services/>
   </StrictMode>,
 )
