@@ -1,12 +1,33 @@
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import "./HeroSection.css";
 import appleImage from "../../assets/Apple.png";
 import playStoreImage from "../../assets/PlayStore.png";
 import CarImage from "../../assets/HeroCar.png";
 
 export const HeroSection = () => {
+  // Refs for the text section and the image container
+  const textRef = useRef(null);
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    // GSAP animations
+    gsap.fromTo(
+      textRef.current,
+      { scale: 0.8},
+      { scale:1, duration: 1.5, ease: "power2.out" }
+    );
+
+    gsap.fromTo(
+      imageRef.current,
+      { x: "100%", opacity: 0 },
+      { x: "0%", opacity: 1, duration: 1.5, ease: "power2.out", delay: 0.5 }
+    );
+  }, []);
+
   return (
     <main>
-      <section className="text-section">
+      <section className="text-section" ref={textRef}>
         <h1>
           Drive Your <span>Dream Car</span> Today
         </h1>
@@ -39,9 +60,9 @@ export const HeroSection = () => {
         </div>
       </section>
 
-      <section className="hero-image-container">
+      <section className="hero-image-container" >
         <div className="orange-box"></div>
-        <img src={CarImage} alt="Car" className="car-image" />
+        <img ref={imageRef} src={CarImage} alt="Car" className="car-image" />
       </section>
     </main>
   );
