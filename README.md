@@ -26,7 +26,16 @@ RentXpress is a car renting website built as a frontend project using React.js, 
     ```bash
     cd RentXpress
     ```
-3. No additional steps needed since it's just a frontend project with static files.
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open `http://localhost:5173` in your browser to see this project.
+> No additional steps needed since it's just a frontend project with static files.
 
 ### Connect Here
 [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Kishore-SR) &nbsp;
