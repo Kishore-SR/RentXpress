@@ -29,7 +29,7 @@ export const HeroSection = () => {
     <main>
       <section className="text-section" ref={textRef}>
         <h1>
-          Drive Your <span>Dream Car</span> Today
+          Drive your <span>Dream Car</span> Today
         </h1>
         <p>
           Rent the perfect car for any trip with RentXpress. Enjoy flexible

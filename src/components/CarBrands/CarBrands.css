@@ -34,10 +34,6 @@
     height: auto;
     object-fit: contain;
     cursor: pointer;
-    transition: scale 0.2s;
-}
-.logo-container img:hover{
-    scale: 1.2;
 }
 .logo-container .bmw-logo {
     width: 54px;
