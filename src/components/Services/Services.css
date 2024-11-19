@@ -137,10 +137,10 @@
   }
   .feature-item {
     width: 60vw;
-    background: linear-gradient(135deg, #f0f5fa, #dbdcdd); /* Subtle gradient */
+    background: linear-gradient(135deg, #f0f5fa, #dbdcdd);
     padding: 18px 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 12px; 
+    box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.1);
   }
   
   
